@@ -14,7 +14,6 @@ https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/dad8d5de-9b54-42a
 Our dataset contains high-quaity video, keypoint, and audio clips for cartoon portrait animation.
 <video width="300" controls>
   <source src="https://github.com/Xushuolin/HQMM-APC-Dataset/content1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 
 
