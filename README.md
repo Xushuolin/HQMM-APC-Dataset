@@ -25,7 +25,9 @@ Our dataset contains high-quaity video, keypoint, and audio clips for cartoon po
 </table>
 
 The dataset includes some anthropomorphic character faces in addition to regular faces
-
+<video width="600" controls>
+  <source src="https://github.com/Xushuolin/HQMM-APC-Dataset/blob/5dee0a1ec8b7419419e1876608a6093dffd211bd/content2.mp4" type="video/mp4">
+</video>
 
 ## Data collection and processing pipeline 
 ![pipline](liucheng.png)
