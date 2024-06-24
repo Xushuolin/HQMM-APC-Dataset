@@ -11,13 +11,34 @@ For complete video dataset download please contact us through this [Email](xushu
 https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/dad8d5de-9b54-42a8-9a13-c7b1e5a96423
 
 ## Dataset content
+Our dataset contains high-quaity video, keypoint, and audio clips for cartoon portrait animation.
 https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/afc5411f-9e7d-470c-97e5-01a7bc512b42
 
-
+The dataset includes some anthropomorphic character faces in addition to regular faces
 https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/b5fad7b7-8390-4bdc-9d0c-82a2ae24bf11
 
 ## Data collection and processing pipeline 
-![pipline]()
+![pipline](liucheng.png)
+We have developed a semi-automated data processing pipeline to extract the regions we need from the raw video and filter the data using the facial keypoint annotation results.
+
+## Experiment
+We performed a simple fine-tuning training on [Aniportrait](https://github.com/Zejun-Yang/AniPortrait) using our dataset, without changing any of the original parameters of the model. It is not difficult to consider the results shown on our given case to see that the fine-tuning produces a more reasonable and stable picture. In particular, the local generation of eyes and mouths is particularly good. 
+### Pre-fine-tune
+https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/9262d732-e8ff-42f8-98bc-cda96f0bada9
+### Fine tuned
+https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/ce28e68b-0f8a-40b6-9579-0c8c400eb888
+### Pre-fine-tune
+https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/6895a6e1-f628-435d-a909-41d24648a2c6
+### Fine tuned
+https://github.com/Xushuolin/HQMM-APC-Dataset/assets/121299261/f697a1b7-a83d-4659-a050-db8ae370c625
+
+
+
+
+
+
+
+
 
 
 
